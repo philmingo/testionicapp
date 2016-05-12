@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.comtestapp852279" version="0.0.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.testapp.ionic"
+        versionCode = "1"
+        version="0.0.5"
+        xmlns:android   = "http://schemas.android.com/apk/res/android"
+        xmlns="http://www.w3.org/ns/widgets"
+        xmlns:gap="http://phonegap.com/ns/1.0">
   <name>com.testapp</name>
   <description>
         An Ionic Framework and Cordova project.
@@ -8,9 +13,7 @@
       Your Name Here
     </author>
   <content src="index.html"/>
-  <gap:config-file platform="android" parent="/manifest">
-    <application android:debuggable="true" />
-  </gap:config-file>
+
   <access origin="*"/>
   <preference name="webviewbounce" value="false"/>
   <preference name="UIWebViewBounce" value="false"/>
