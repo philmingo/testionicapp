@@ -22,4 +22,10 @@
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
+  <plugin spec="https://github.com/apache/cordova-plugin-console" />
+  <plugin spec="https://github.com/apache/cordova-plugin-device" />
+  <plugin spec="https://github.com/apache/cordova-plugin-splashscreen" />
+  <plugin spec="https://github.com/apache/cordova-plugin-statusbar" />
+  <plugin spec="https://github.com/apache/cordova-plugin-whitelist" />
+  <plugin spec="https://github.com/driftyco/ionic-plugin-keyboard.git" />
 </widget>
